@@ -17,7 +17,7 @@ const env = {
   sessionSecret: readEnv('SESSION_SECRET', 'change-me-in-production'),
   googleClientId: readEnv('GOOGLE_CLIENT_ID'),
   googleClientSecret: readEnv('GOOGLE_CLIENT_SECRET'),
-  googleRedirectUri: readEnv('GOOGLE_REDIRECT_URI', 'http://localhost:3000/auth/google/callback'),
+  googleRedirectUri: readEnv('GOOGLE_REDIRECT_URI'),
   defaultRecipientEmail: readEnv('DEFAULT_RECIPIENT_EMAIL'),
   smtpHost: readEnv('SMTP_HOST'),
   smtpPort: Number(readEnv('SMTP_PORT', 587)),
