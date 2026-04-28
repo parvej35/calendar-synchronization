@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard - Calendar Synchronization</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="card hero">
+        <h1>Event Summary Dashboard</h1>
+        <p>Review upcoming events, then send a summary email to your designated recipient.</p>
+      </section>
+
+      <section class="card controls">
+        <label>
+          Days to fetch
+          <input id="daysInput" type="number" min="1" max="30" value="7" />
+        </label>
+        <label>
+          Recipient Email
+          <input id="recipientInput" type="email" placeholder="recipient@example.com" />
+        </label>
+        <div class="action-row">
+          <button id="loadEventsBtn" class="button">Load Events</button>
+          <button id="sendSummaryBtn" class="button button-secondary">Send Summary Email</button>
+          <button id="logoutBtn" class="button button-ghost">Logout</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Upcoming Events</h2>
+        <p id="statusText" class="muted">Loading status...</p>
+        <div class="table-wrap">
+          <table id="eventsTable">
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Time</th>
+                <th>Duration</th>
+                <th>Location</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
