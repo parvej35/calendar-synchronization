@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-label="Home screen placeholder">
+  <rect width="1200" height="700" fill="#0f172a"/>
+  <rect x="80" y="80" width="1040" height="540" rx="24" fill="#111827" stroke="#334155"/>
+  <text x="120" y="160" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="44" font-weight="700">Calendar Synchronization</text>
+  <text x="120" y="210" fill="#94a3b8" font-family="Arial, sans-serif" font-size="24">Authorize Google Calendar and send event summaries by email.</text>
+  <rect x="120" y="270" width="360" height="64" rx="10" fill="#38bdf8"/>
+  <text x="145" y="312" fill="#082f49" font-family="Arial, sans-serif" font-size="26" font-weight="700">Authorize Google Calendar</text>
+  <text x="120" y="410" fill="#38bdf8" font-family="Arial, sans-serif" font-size="28" font-weight="700">Collect</text>
+  <text x="120" y="450" fill="#94a3b8" font-family="Arial, sans-serif" font-size="22">Fetch upcoming events from Google Calendar.</text>
+  <text x="120" y="510" fill="#38bdf8" font-family="Arial, sans-serif" font-size="28" font-weight="700">Summarize</text>
+  <text x="120" y="550" fill="#94a3b8" font-family="Arial, sans-serif" font-size="22">Include title, time, duration, location, and description.</text>
+</svg>
