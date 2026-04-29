@@ -134,3 +134,14 @@ npm start
 - Rotate secrets immediately if exposed.
 - Current session storage is in-memory; use Redis/DB-backed session store for production.
 - Use HTTPS in production.
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) file for details.
+
+## Contact
+
+**Developer:** Parvej Choudhury  
+**Email:** parvej35@gmail.com
+
+For questions, bug reports, or feature requests, please reach out via email.
