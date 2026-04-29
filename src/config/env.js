@@ -24,7 +24,7 @@ const env = {
   smtpSecure: readEnv('SMTP_SECURE', 'false') === 'true',
   smtpUser: readEnv('SMTP_USER'),
   smtpPass: readEnv('SMTP_PASS'),
-  mailFrom: readEnv('MAIL_FROM', readEnv('SMTP_USER'))
+  mailFrom: readEnv('MAIL_FROM', readEnv('SMTP_FROM'))
 };
 
 function validateEnv() {
